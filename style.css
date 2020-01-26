@@ -214,14 +214,19 @@ body {
     height: 300px;
   }
 
-  .d-block.w-100 {
+  #carItem {
+    height: 650px;
+    background-color: khaki;
+  }
+
+ d-block.w-100 {
     height: 900px;
   }
 
   .carousel-item {
-    height: 100%;
+    height: 900px; 
 
-  }
+  } 
  
 
   
