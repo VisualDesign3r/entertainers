@@ -14,7 +14,7 @@ body {
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgb(0,0,0);
     overflow-y: hidden;
     transition: 0.5s;
   }
@@ -26,6 +26,7 @@ body {
     text-align: center;
     margin-top: 30px;
     color: #ffffff;
+    padding: 50px;
 
   }
   
@@ -44,7 +45,8 @@ body {
     color: #ffffff;
     display: block;
     transition: 0.3s;
-    text-align: left;
+    text-align: center;
+    width: 40%;
 }
 
   
@@ -153,6 +155,7 @@ body {
 
 
   .hiddenBox {
+    width: 300px;
 
   }
 
@@ -181,9 +184,44 @@ body {
   }
 
   .headline1 {
-    font-size: 100px;
-    letter-spacing: 50px;
+    font-size: 5em;
+    letter-spacing: 10px;
     font-family: 'Poiret One', cursive;
 
 
   }
+
+  .w3-row.w3-center.w3-dark-grey.w3-padding-16 {
+    height: 200px;
+    padding-bottom: 100px;
+  }
+
+  .w3-quarter.w3-section {
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+  }
+
+  .w3-quarter.w3-section > span {
+    font-size: 50px;
+  }
+
+  .w3-xlarge {
+    font-size: 50px;
+
+  }
+
+  .contCar {
+    height: 300px;
+  }
+
+  .d-block.w-100 {
+    height: 900px;
+  }
+
+  .carousel-item {
+    height: 100%;
+
+  }
+ 
+
+  
