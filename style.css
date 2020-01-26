@@ -211,7 +211,6 @@ body {
   }
 
   .contCar {
-    height: 300px;
   }
 
   #carItem {
@@ -219,12 +218,12 @@ body {
     background-color: khaki;
   }
 
- d-block.w-100 {
-    height: 900px;
+ .d-block.w-100 {
+    width: 100%;
   }
 
   .carousel-item {
-    height: 900px; 
+    height: 100%; 
 
   } 
  
