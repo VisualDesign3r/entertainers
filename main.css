@@ -15,7 +15,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("../entertainers/img/cover-img.jpg");
+  background-image: url("images/home-ENTERTAINERS-bh 002.jpg");
   min-height: 100%;
 }
 
@@ -59,6 +59,16 @@ body {
 .row > .column {
   padding: 0 8px;
   padding-bottom: 20px;
+}
+
+.row > .column-btn {
+  padding: 0 8px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.btn.btn-primary {
+  margin: auto;
 }
 
 .row:after {
