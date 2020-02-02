@@ -16,20 +16,11 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url("images/home-ENTERTAINERS-bh 002.jpg");
-  min-height: 100%;
+  /* min-height: 100%; */
+width: 100%;
 }
 
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
-  min-height: 400px;
-}
 
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
-  min-height: 400px;
-}
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
@@ -92,7 +83,7 @@ body {
   top: 0;
   width: 100%;
   overflow: auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.509);
 }
 
 /* Modal Content */
@@ -102,7 +93,7 @@ body {
   margin: auto;
   padding: 0;
   /* width: 100%; */
-  max-width: 1400px;
+  max-width: 1600px;
 }
 
 /* The Close Button */
@@ -111,7 +102,7 @@ body {
   position: absolute;
   top: 10px;
   right: 25px;
-  font-size: 35px;
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -195,6 +186,11 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.close.cursor {
+  font-size: 5rem;
+  color: #ddd;
 }
 
 
